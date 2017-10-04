@@ -1,4 +1,6 @@
 AdraFeedback::Application.routes.draw do
+  root :to => 'static_pages#root'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

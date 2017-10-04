@@ -17,8 +17,8 @@ development:
   encoding: unicode
   database: adra_feedback_development
   pool: 5
-  username: adra_feedback
-  password:
+  username: soorae
+  password: pickle
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: adra_feedback_test
   pool: 5
-  username: adra_feedback
-  password:
+  username: soorae
+  password: pickle
 
 production:
   adapter: postgresql
   encoding: unicode
   database: adra_feedback_production
   pool: 5
-  username: adra_feedback
-  password:
+  username: soorae
+  password: pickle
