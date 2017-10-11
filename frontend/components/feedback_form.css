@@ -1,8 +1,9 @@
 .feedback_form {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: auto;
 }
 
 .question_row, .radio_row {
@@ -18,15 +19,22 @@
   display: flex;
   flex-direction: column;
   text-align: right;
+  margin-left: 20px;
 }
-.suggestion_container {
+.text_container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 .suggestion_textarea {
-  width: 500px;
-  height: 200px;
+  width: 400px;
+  height: 100px;
+  text-align: right;
+  direction: rtl;
+}
+.action_textarea {
+  width: 400px;
+  height: 100px;
   text-align: right;
   direction: rtl;
 }
@@ -41,4 +49,23 @@
 
 label {
   margin-left: 20px;
+}
+
+.optional_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.optional {
+  color: lightgreen;
+  margin: 0 20px;
+}
+
+.input_text {
+  margin: 0 10px;
+  width: 150px;
+  direction: rtl;
+
 }
