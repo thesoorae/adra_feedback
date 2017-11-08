@@ -1,6 +1,10 @@
 AdraFeedback::Application.routes.draw do
   root :to => 'static_pages#root'
 
+  namespace :api, defaults: { format: :json } do
+    resources :feedback, only: [:index, :show, :create, :destroy]
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
