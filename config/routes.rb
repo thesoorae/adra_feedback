@@ -3,6 +3,8 @@ AdraFeedback::Application.routes.draw do
 
   namespace :api, defaults: { format: :json } do
     resources :feedback, only: [:index, :show, :create, :destroy]
+    resource :user, only [:create]
+    resource :session, only: [:create, destroy, :show]
   end
 
   # The priority is based upon order of creation:
