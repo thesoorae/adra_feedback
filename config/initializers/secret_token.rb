@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-AdraFeedback::Application.config.secret_token = 'bc66803aa77e1fc692e65366f1a2b2ebc31dda58d20f417d322e9db5bc7b81ac3ba3429a84e83606d6436ca4761dcf47ef5286582ffb6303485f68207f1465d3'
+AdraFeedback::Application.config.secret_token = 'c5e2e78246449d900eb414006a5cfb9ce2bc25b5536df116d67a0a6f30504b078e1820f6db0d46acb97d3b4b3e2c53cb7e3e490c3eabc50128d1d6de54eb1ee3'
